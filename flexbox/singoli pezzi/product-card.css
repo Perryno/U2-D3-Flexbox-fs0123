@@ -1,0 +1,56 @@
+.card {
+  width: 300px;
+  height: 350px;
+  background-color: antiquewhite;
+  border-radius: 70px;
+  font-size: 1.3rem;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 70px 70px 0 0;
+}
+
+.tutto {
+  color: #743206;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.testo {
+  margin-top: 10px;
+  width: 60%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: 600;
+  margin-block: 0.3rem;
+}
+.minus {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.kili {
+  margin-right: 16px;
+}
+
+.flex-bott {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex-bott button {
+  width: 150px;
+  height: 40px;
+  color: #743206;
+  background-color: #f3df85;
+  border: 0;
+  border-radius: 20px;
+  font-size: 1rem;
+}

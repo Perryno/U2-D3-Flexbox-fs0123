@@ -1,0 +1,131 @@
+h2 {
+  color: #743206;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-block: 2rem;
+}
+
+.margin {
+  margin: 40px;
+}
+
+.container {
+  width: 100%;
+  background-color: antiquewhite;
+  border-radius: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+}
+
+.container img {
+  width: 50px;
+  height: 50px;
+}
+
+.container button {
+  color: #743206;
+  width: 100px;
+  border: 0;
+  height: 40px;
+  background-color: #f3df85;
+  border-radius: 50px;
+}
+.container .alternativo {
+  display: flex;
+  align-items: center;
+  width: 190px;
+  height: 70px;
+  justify-content: space-around;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.card {
+  width: 300px;
+
+  background-color: antiquewhite;
+  border-radius: 70px;
+  font-size: 1.3rem;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 70px 70px 0 0;
+}
+
+.tutto {
+  color: #743206;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.testo {
+  margin-top: 10px;
+  width: 60%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: 600;
+  margin-block: 0.3rem;
+}
+.minus {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.kili {
+  margin-right: 16px;
+}
+
+.flex-bott {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex-bott button {
+  width: 150px;
+  height: 40px;
+  color: #743206;
+  background-color: #f3df85;
+  border: 0;
+  border-radius: 20px;
+  font-size: 1rem;
+  margin-block: 20px;
+}
+
+.carte {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 25%;
+  gap: 20px;
+}
+.cont-body {
+  background-color: antiquewhite;
+  display: flex;
+  box-sizing: content-box;
+  padding: 30px;
+  flex-direction: column-reverse;
+  align-items: center;
+  border-radius: 30px;
+  color: #743206;
+}
+
+.paragrafo h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.paragrafo {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.cont-body img {
+  width: 100%;
+}

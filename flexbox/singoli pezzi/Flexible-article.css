@@ -1,0 +1,30 @@
+.cont-body {
+  width: 80%;
+  background-color: antiquewhite;
+  display: flex;
+  box-sizing: content-box;
+  padding: 30px;
+  flex-direction: column-reverse;
+  align-items: center;
+  border-radius: 30px;
+  color: #743206;
+}
+
+.paragrafo h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.paragrafo {
+  max-width: 100%;
+}
+
+.cont-body img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .cont-body {
+    flex-direction: unset;
+  }
+}
